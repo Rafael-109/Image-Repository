@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Usuario</title>
+
+
+	<link rel="stylesheet" type="text/css" href="styles/user.css">
+
+
+</head>
+<body>
+<section>
+	<div class="container-options">
+        <div>
+            Volver al <a href="index.html" class="btn-a">Inicio</a>
+        </div>
+        <div>
+            <a href="Login.html" class="btn-a">Cerrar sesión</a>
+        </div>
+    </div>
+</section>
+<section class="container">
+	<!--Formulario de repositorios-->
+	<div class="formulario">
+		<form>
+			<label for="name">Nombre de repositorio</label>
+			<input type="name">
+			
+			<label for="name">Subir imagen</label>
+			<input type="file">
+			
+			<select>
+				<option>Seleccione una etiqueta</option>
+				<option>Vacaciones</option>	
+				<option>Familia</option>
+				<option>Música</option>
+				<option>Montañas</option>
+				<option>Playa</option>
+			</select>
+
+
+			<div id="botones">
+				<input type="submit" value="Insertar" class="btn btn1">
+			</div>
+
+		</form>
+	</div>
+	
+	<!--Formulario de editar datos del usuario y contraseña-->
+	<div class="usuarios">
+		<table class="default">
+
+		<tr>
+
+			<td>Nombre: </td>
+
+			<td><input type="text" name="" value="Rafael"></td>
+
+		</tr>
+		<tr>
+			<td>Apellido: </td>
+
+			<td><input type="text" name="" value="Carrizalez"></td>
+
+		</tr>
+		<tr>
+			<td>Correo: </td>
+
+			<td><input type="text" name="" value="rafaelecr98@gmail.com"></td>
+
+		</tr>
+		<tr>
+			<td>Actualizar usuario: </td>
+
+			<td>
+				<input type="submit" value="Editar" class="btn btn1">
+			</td>
+
+		</tr>
+		<tr>
+			<td>Contraseña: </td>
+			<td>
+				<input type="password" placeholder="Contraseña">
+			</td>
+		</tr>
+		<tr>
+			<td>Confirmar contraseña: </td>
+			<td>
+				<input type="password" placeholder="Confirmar contraseña:">
+			</td>
+		</tr>
+		<tr>
+			<td>Actualizar contraseña: </td>
+
+			<td>
+				<input type="submit" value="Actualizar" class="btn btn1">
+			</td>
+
+		</tr>
+		
+
+</table>
+	</div>
+	
+</section>
+<!--Aquí se listan los repositorios de cada usuario-->
+<section class="container-pictures">
+	<h4>Mis repositorios</h4>
+	<table>
+		<thead>
+			<td class="table-image">Repositorio</td>
+			<td class="table-image">Imagen</td>
+			<td class="table-image">Etiquetas</td>
+
+		</thead>
+		<tbody>
+			<tr>
+				<td class="table-image">Repositorio 1</td>
+				
+				<td class="table-image">
+					<img class="img-td" src="https://i.pinimg.com/236x/4c/ce/c0/4ccec0b72cea7c11b05df8801dc04ea9--beach-background-tropical-houses.jpg" width="100" height="100">
+				</td>
+				
+				<td class="table-image">Playa</td>
+			</tr>
+			<tr>
+				<td class="table-image">Repositorio 2</td>
+				
+				<td class="table-image">
+					<img class="img-td" src="https://i.pinimg.com/originals/44/14/4f/44144f211b78e6b74fe46cff9ae789dc.jpg" width="100" height="100">
+				</td>
+				
+				<td class="table-image">Montaña</td>
+			</tr>
+			<tr>
+				<td class="table-image">Repositorio 3</td>
+				
+				<td class="table-image">
+					<img class="img-td" src="https://i.pinimg.com/236x/6c/6a/81/6c6a81f96b279f577d5d9bedc900fc90--outdoors-lifestyle.jpg" width="100" height="100">
+				</td>
+				
+				<td class="table-image">Playa</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+
+</section>
+</body>
+</html>

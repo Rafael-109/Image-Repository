@@ -1,0 +1,126 @@
+body{
+	background-image: url("../resources/fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/*flex-direction: column;*/
+}
+	/*-----FORULARIO IMAGEN-----*/
+
+.container .formulario{
+	width: 40%;	
+	padding: 20px;
+}
+.container .formulario form{
+	display: flex;
+	flex-direction: column;
+	color: #000;
+	background-color: #FFF;
+	padding: 35px;
+	border-radius: 1rem;
+
+}
+.container .formulario form input{
+	margin: 6px 0px 6px 0px;
+
+}
+
+	/*-----FORULARIO IMAGEN-----*/
+
+.usuarios{
+	color: #000;
+	background-color: #FFF;
+	width: 60%;
+	height: 200px;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 1rem;
+}
+
+
+/*REPOSITORIO DE IMAGENES*/
+
+.container-pictures{
+	color: #000;
+	background-color: #FFF;
+	width: 30%;
+	height: auto;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 1rem;
+}
+
+.table-image {
+	width: 8rem;
+    word-wrap: break-word;
+}
+
+.img-td {
+	border-radius: 1rem;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+}
+
+.container-welcome{
+	color: #000;
+	background-color: #FFF;
+	width: 45%;
+	height: auto;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 1rem;
+}
+
+.container-options{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #000;
+	background-color: #FFF;
+	width: 45%;
+	height: auto;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 1rem;
+}
+
+.btn-a {
+	font: bold 11px Arial;
+	text-decoration: none;
+	background-color: #EEEEEE;
+	color: #333333;
+	padding: 3px 6px 3px 6px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+  }
+
+  .btn-like {
+	font: bold 11px Arial;
+	text-decoration: none;
+	background-color: #407cff;
+	color: #fff;
+	padding: 3px 6px 3px 6px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+	cursor: pointer;
+  }
+
+  .header-repositories {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+
